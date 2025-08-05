@@ -1,0 +1,288 @@
+.dropdownClass{
+    position: absolute;
+    top: 52px;
+    background:#12a2b6;
+    padding: 20px;
+}
+.dropdownClass a{
+    color: #FFFF;
+}
+.rd-navbar-megamenu{
+    position: absolute;
+    top: 80%;
+    left: 225px;
+    z-index: 1;
+    /* width: 250px; */
+    padding: 20px;
+    visibility: hidden;
+    transition: .3s all ease;
+    text-align: left;
+    opacity: 0;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
+    background: #3eb2cf;
+}
+
+
+.row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.row:before, .row:after {
+    content: " ";
+    display: table;
+}
+.rd-navbar--has-megamenu .rd-navbar-submenu {
+    position: static;
+}
+.rd-navbar--has-megamenu .rd-navbar-submenu.focus {
+    opacity: 1;
+    visibility: visible;
+}
+.rd-navbar-megamenu.newdrop{
+    opacity: 1;
+    visibility: visible;
+}
+.rd-navbar-megamenu.course{
+    opacity: 1;
+    visibility: visible;
+}
+.row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+nav.bg-primary\".navbar.navbar-expand-md.navbar-light.bg-primary {
+background-color: transparent !important;
+}
+.section-relative {
+    position: relative;
+    z-index: 1;
+}
+.rd-navbar-megamenu a{
+    color: #fff;
+    font-weight: 700;
+}
+.rd-navbar-megamenu h6{
+    color: #fff;
+    font-weight: 700;
+}
+li.active{
+    color: #fec20b;
+    text-decoration: underline;
+}
+::marker {
+    color: transparent;
+}
+nav.bg-primary.rd-navbar-menu-wrap.clearfix\".navbar.navbar-expand-md.navbar-light.bg-primary{
+    padding: 15px 20px;
+    text-align: center;
+    background: #fff !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.18);
+
+}
+#shk {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite !important;
+}
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+  }
+.btn-primary{
+    background-color: #12a2b6 !important;
+    border-color:  #12a2b6 !important;
+}
+.breadcrumb-classic {
+    background: #fec20b;
+    /* position: relative; */
+    align-items: center;
+    justify-content: center !important;
+    padding: 40px 20px 20px 20px;
+    text-align: center !important;
+    margin-top: 100px;
+}
+span.h1.reveal-sm-block{
+   align-self: center;
+   color: #fff;
+}
+span.first-word {
+    color: #12a2b6;
+}
+
+.i
+span.h1.home-headings-custom.text-bold.view-animate.fadeInLeftSm.delay-04.cblue.cyellow.offset-top-35.active {
+    color: #fec20b !important;
+}
+h6.text-primary.text-bold {
+    color: #fec20b !important;
+    padding-top: 20px;
+}
+.sliderContainer {
+    /* position: absolute; */
+    width: 100%;
+    /* height: 100%; */
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+nav.bg-primary.rd-navbar-menu-wrap.clearfix\".navbar.navbar-expand-md.navbar-light.bg-primary{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background: transparent !important;
+    border: 0;
+    border-bottom: 0px;
+    box-shadow:none
+}
+.sliderText{
+    background-image: url("https://piford.com/images/piford-images/banners/slider1.png");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sliderView{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.carousel-caption {
+    position: absolute !important;
+    right: 0% !important;
+    bottom: 0 !important;
+    left: 5% !important;
+    top:17% !important;
+    padding-top: 9.25rem !important;
+    padding-bottom: 0 !important;
+    color: #0a0606 !important;
+    text-align: left !important;
+}
+.buttonContainer.row{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 20px;
+    flex-direction: row;
+}
+.btn:hover{
+    background-color: #12a2b6 !important;
+    border-color: #12a2b6 !important;
+    color: #fff !important;
+}
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.p-20.row {
+    padding: 45px 20px 20px 20px;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 2.29;
+    font-weight: 400;
+    color: #a5a5a5;
+}
+.bg-madison {
+    background: #3eb2cf;
+    fill: #3eb2cf;
+}
+.section-70 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.shell {
+    padding: 0px 30px 0px 30px;
+}
+.imgView{
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    display: flex
+;
+}
+.row-pt.row{
+    padding-top: 20px;
+}
+a.imgView {
+    color: #fec20b;
+    text-decoration:none
+}
+.shell.offset-top-35 {
+    padding-top: 35px;
+}
+.offset-md-top-60.text-white.view-animate.fadeInUpSmall.delay-06.active {
+    padding-top: 35px;
+}
+.bg-madison.context-dark {
+    float: left;
+    width: 100%;
+    margin-top: 2%;
+}
+.row-contactUs.row {
+    padding: 60px 10px 60px 10px;
+}
+.courseImage{
+    margin-right: 30px;
+    position: absolute;
+    top: 120px;
+    left: 380px;
+}
+h1.reveal-sm-block {
+    color: #fff;
+}
+.bg-catskill{
+    fill: rgb(245, 247, 250);
+    background: rgb(245, 247, 250);
+    padding: 10px 30px;
+}
+li.resp-tab-item.tabs-lg-collapsed {
+    text-align: right;
+    padding: 6px 20px 6px 6px;
+    border-right: 1px solid #e5e5e5;
+}
+li.resp-tab-item.tabs-lg-collapsed.resp-tab-active {
+    text-align: right;
+    border-right: 1px solid #fec20b;
+}
